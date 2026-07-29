@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.1.145 - 2026-07-29
+
+- feat: Use native plan modes for claude and codex
+- Initial plan
+- Fix TestGitEnabledProjectMaterializesALocalRepo: init repo before identity check
+- Fix comment spelling: Initialise -> Initialize
+- Fix HA smoke test: pin mcp<2 when installing mcp-proxy
+- Fix HA smoke: add --force to pipx inject mcp<2
+- Merge pull request #2 from Podiom/copilot/fix-copilot-error
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- UV_VERSION: 0.11.26
+- TTYD_VERSION: 1.7.7
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.143 - 2026-07-18
 
 - docs: clarify Podiom positioning in README
