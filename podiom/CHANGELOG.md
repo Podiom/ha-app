@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.165 - 2026-08-07
+
+- chore(deps-dev): bump postcss from 8.5.16 to 8.5.26 in /web
+- Merge pull request #16 from Podiom/dependabot/npm_and_yarn/web/postcss-8.5.26
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- UV_VERSION: 0.11.26
+- TTYD_VERSION: 1.7.7
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.164 - 2026-08-07
 
 - chore(deps): bump dompurify from 3.4.11 to 3.4.12 in /web
