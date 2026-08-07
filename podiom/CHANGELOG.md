@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.1.164 - 2026-08-07
+
+- chore(deps): bump dompurify from 3.4.11 to 3.4.12 in /web
+- fix: Fix context window bugs
+- fix: Improve UX of goals pages
+- Merge pull request #15 from Podiom/dependabot/npm_and_yarn/web/dompurify-3.4.12
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- UV_VERSION: 0.11.26
+- TTYD_VERSION: 1.7.7
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.163 - 2026-08-06
 
 - feat: Support human action items part of goals
