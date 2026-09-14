@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.1.308 - 2026-09-14
+
+- test(adapter): cover native agent stripping (#178)
+- test(adapter): cover codexErrorMessage JSON routes (#182)
+- test(cli): cover MCP env flag parsing (#175)
+- test(capabilities): cover deep clone (#176)
+- test(web): cover parseMemory intro guards (#177)
+- test(web): cover the browser degradation path in discovery (#171)
+- test(web): cover randomID crypto fallbacks (#180)
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- UV_VERSION: 0.11.26
+- TTYD_VERSION: 1.7.7
+- GO_VERSION: 1.26.5
+- RUSTUP_INIT_VERSION: 1.29.0
+- RUST_VERSION: 1.97.1
+- SWIFTLY_VERSION: 1.1.3
+- SWIFT_VERSION: 6.3.3
+- SWIFTLY_PLATFORM: debian12
+- PYTHON_VERSION: 3.14.6
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.300 - 2026-09-13
 
 - test(web): cover normalizePhoto validation guards (#169)
