@@ -10,10 +10,14 @@ This repository is the Home Assistant app (add-on) store channel for
 2. Open the ⋮ menu → **Repositories**, and add:
 
    ```
-   https://github.com/Podiom/homeassistant-addons
+   https://github.com/Podiom/ha-app
    ```
 
 3. Install **Podiom** from the store, start it, and open it from the sidebar.
+
+Installs that already use `https://github.com/Podiom/homeassistant-addons` keep
+working through GitHub's repository redirect. Do not add a new repository at the
+old name.
 
 See the add-on's [documentation](podiom/DOCS.md) for the first-run walkthrough
 (gateway token, CLI logins, backups, and security notes).
