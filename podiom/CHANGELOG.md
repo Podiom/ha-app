@@ -1,5 +1,38 @@
 # Changelog
 
+## 0.1.395 - 2026-11-04
+
+- test(onboard): cover wizard presentation helpers (#351)
+- test(updater): cover zip extraction safety (#293) (#352)
+- test(podiomd): cover relay endpoint warnings (#285) (#353)
+- test(podiomd): cover installer provenance stamping (#287) (#354)
+- test(web): cover VAPID key decoding (#350)
+- chore(deps): bump dompurify from 3.4.16 to 3.4.17 (#356)
+- chore(deps-dev): bump vite from 6.4.3 to 6.4.5 (#361)
+- chore(deps-dev): bump undici from 8.10.2 to 8.12.3 (#359)
+
+### Bundled versions
+
+- BUILD_FROM: ghcr.io/hassio-addons/debian-base:9.3.0
+- NODE_MAJOR: 22
+- CLAUDE_CODE_VERSION: 2.1.201
+- CODEX_VERSION: 0.142.5
+- MCP_PROXY_VERSION: 0.12.0
+- UV_VERSION: 0.11.26
+- TTYD_VERSION: 1.7.7
+- GO_VERSION: 1.26.5
+- RUSTUP_INIT_VERSION: 1.29.0
+- RUST_VERSION: 1.97.1
+- SWIFTLY_VERSION: 1.1.3
+- SWIFT_VERSION: 6.3.3
+- SWIFTLY_PLATFORM: debian12
+- PYTHON_VERSION: 3.14.6
+
+> Compare with the previous entry for CLI version drift; CLI flags
+> Podiom depends on (e.g. --mcp-config, --add-dir, --profile) are
+> version-sensitive.
+
+
 ## 0.1.384 - 2026-10-16
 
 - test(mcp): cover config coercion helpers (#345)
